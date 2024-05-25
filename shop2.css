@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins",sans-serif;
+}
+
+header{
+    width: 100%;
+    background:linear-gradient(45deg,#d88b94,#575472);
+    padding: 20px;
+    background: #11141a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+   .Navbar{
+    width: 100px;  
+    color: #fff;
+    font-size: 15px;
+    padding: 0px 20px;
+ }
+ 
+ .logo:hover{
+   color:rgb( 10, 140, 201) ;
+ }
+ 
+ .Navitems ul{
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .Navitems ul li{                            
+   margin:0px 30px;
+   list-style: none;
+   font-size: 20px;
+ }
+ 
+ a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .Navitems a:hover{
+   color:rgb(10, 140, 201) ;
+ }
+
+  .head{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .left{
+    flex-basis: 45%;
+
+  }
+  
+  .img-box{
+   /* width: inherit;
+    margin: 10px;*/
+    height: 80vh;
+    display: flex;
+  }
+
+  .product{
+    height: 19vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    width: 500;
+    height: auto;
+    opacity: 0.6;
+  }
+
+  .product img{
+    height: 20vh;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);   
+    margin: auto;
+    width: 100px;
+  }
+
+  .product img:hover{
+       opacity: 1;
+  }
+
+  .box img{
+    height: 515px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);   
+    margin: auto;
+    width: 400px;
+    
+  }
+
+  .box:hover{
+    box-shadow: 0px 0px 5px 5px rgb(83, 158, 83); 
+   
+ }
+
+  .content{
+    margin-left: 450px;
+    align-items: center;
+    padding: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  p{
+    margin-bottom: 20px;
+    
+  }
+
+  .brand{
+    background: #008000;
+    width: fit-content;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+
+  }
+
+  h2{
+    font-size: 45px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .ratting{
+    display: flex;
+    height: 15px;
+  }
+
+  .ratting.fa{
+    color: #008000;
+  }
+
+  .price{
+    color: #fe980f;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+  input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  button{
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: #fe980f;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  button.fa{
+    margin-right: 10px;
+  }
+
+  .details h2{
+    font-size: 45px;
+    margin: 0px;
+    margin-top: 30px;
+  }
+
+  h2:hover{
+    color: green;
+  }
+
+
+ .boxs p{
+  height: 15vh;
+  box-shadow: 0px 0px 2px 2px green;   
+  margin: 30px auto;
+  }
+
+  
+  .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(21rem,1fr));
+    gap: 1.5rem;
+    margin-left: 20px;
+    flex-direction: row; 
+  }
+
+  img{
+    height: 250px;
+    width: 250px;
+    
+  }
+
+
+ 
+  
+ 
+  
+
+  
+ 
+
+  
+
+ 
+  
