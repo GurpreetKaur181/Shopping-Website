@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #222;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 3em;
+    color:#01dbc2;
+    font-weight: 500;
+}
+
+.content p{
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.heros{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.heros .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heros .contactinfo .box{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.heros .contactinfo .box .icon{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: repeating-conic-gradient(from 30deg,#01dbc2 0%,#01dbc2 10%,transparent 10%,transparent 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heros .contactinfo .box .icon::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from 117.5deg,#01dbc2 0%,#01dbc2 10%,transparent 10%,transparent 50%);
+    
+}
+
+.heros .contactinfo .box .icon::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222;
+}
+
+.heros .contactinfo .box .icon b{
+    position: absolute;
+    inset: 8px;
+    background: #01dbc2;
+    z-index: 2;
+}
+
+.heros .contactinfo .box .icon i{
+    position: relative;
+    z-index: 1000;
+    color: #333;
+    font-size: 1.25em;
+}
+
+.heros .contactinfo .box .text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    font-family: 300;
+}
+
+.heros .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #01dbc2;
+}
+
+
+ h2.txt {
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 500;
+    border-left: 50px solid #01dbc2;
+    padding-left: 10px;
+    line-height: 1em;
+}
+
+.heros .contactinfo .sci{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.heros .contactinfo .sci li{
+     list-style: none;
+}
+
+.heros .contactinfo .sci li a{
+    color: #fff;
+    font-size: 1.5em;
+    transition: 0.25s;
+}
+
+.heros .contactinfo .sci li a:hover{
+    color: #01dbc2;
+    filter: drop-shadow(0 0 5px #01dbc2);
+}
+
+.heros .contactform{
+    position: relative;
+    background: repeating-conic-gradient(from var(--a),#01dbc2 0%,#01dbc2 10%,transparent 10%,transparent 50%);
+    animation: animate 6s linear infinite;
+    padding: 60px;
+}
+
+.heros .contactform::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from var(--a),#01dbc2 0%,#01dbc2 10%,transparent 10%,transparent 50%);
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
+
+.heros .contactform::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border: 20px solid #222;
+    background: #333;
+}
+
+@property --a{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes animate{
+    0%
+    {
+        --a:0deg;
+    }
+
+    100%
+    {
+        --a:360deg;
+    }
+}
+
+.heros .contactform form{
+    position: relative;
+    z-index: 10;
+}
+
+.heros .contactform form h2{
+    font-size: 2em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.heros .contactform form .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.heros .contactform form .inputBox input,
+.heros .contactform form .inputBox textarea{
+    width: 100% !important;
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin: 10px 0;
+    border:none;
+    background: transparent;
+    border-bottom: 2px solid #01dbc2;
+    color: #fff;
+    outline: none;
+    resize: none;
+}
+
+.heros .contactform form .inputBox span{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.heros .contactform form .inputBox input:focus ~ span,
+.heros .contactform form .inputBox textarea:focus ~ span,
+.heros .contactform form .inputBox input:valid ~ span,
+.heros .contactform form .inputBox textarea:valid ~span{
+    color: #01dbc2;
+    font-size: 0.9em;
+    transform: translateY(-24px);
+}
+
+
+@media (max-width:991px)
+{
+
+    .contact{
+        padding:50px;
+    }
+    .heros{
+        flex-direction: column;
+    }
+
+    .heros .contactinfo,
+    .heros .contactform
+    {
+         width: 100%;
+    }
+
+    .heros .contactform 
+    {
+        padding: 40px;
+    }
+
+    .heros .contactform form
+    {
+        padding: 30px;
+    }
+}
+

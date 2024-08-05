@@ -1,0 +1,135 @@
+@import url("https://fonts.googles.com/css2?family=poppins:wght@400;500;600;700display=swap");
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+  font-family:'poppins'sans-serif;
+  font-size: 16px;
+  background:linear-gradient(to right,hsl(0, 0%, 8%),hsl(170, 65%, 30%)) ;
+  
+ 
+ }
+
+header{
+    width: 100%;
+    background:linear-gradient(45deg,#4facd1,#163311);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+   .logo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:35px;
+   }
+
+   .Navbar{
+    width: 100px;  
+    color: #fff;
+    padding: 0px 20px;
+ }
+ 
+ .Navitems ul{
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .Navitems ul li{                            
+   margin:0px 40px;
+   list-style: none;
+   font-size: 20px;
+   margin-right: 100px;
+ }
+ 
+ a{
+   text-decoration: none;
+   color:white;
+ }
+  
+ .container{
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 15px;
+ }
+
+ .section-header{
+  text-align: center;
+  margin-bottom: 50px;
+ 
+ }
+
+ .section-header .title{
+  font-size: 35px;
+  width: 100%;
+  margin-top: 20px;
+  color:rgb(243, 235, 235);
+  text-shadow: 1px 1px 2px rgba(0,0,0,5);
+  margin: 20px;
+  
+ }
+
+ .testmonials{
+  padding: 70px 0;
+
+  
+ }
+
+ .testmonials-item{
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 30px ;
+ }
+
+ .testmonials-item .info{
+  display: flex;
+  align-items: center;
+ }
+
+ .testmonials-item img{
+  max-width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+ }
+
+ .testmonials-item .name{
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: hsl(0, 0%, 0%);
+  line-height: 1.2;
+ }
+
+ .testmonials-item .job{
+  text-transform: capitalize;
+  color: hsl(0, 0%, 40%);
+ }
+
+ .testmonials-item p{
+  margin-top: 20px;
+  color:hsl(0, 0%, 40%);
+ }
+
+ .testmonials-item .ratting{
+  margin-top: 15px;
+  font-size: 14px;
+  color:hsl(36, 94%, 51%);
+ }
+
+/* .testmonials .swiper-pagination{
+  position: relative;
+  margin-top: 40px;
+  bottom: auto;
+ }
+ 
+ .testmonials .swiper-pagination-bullet{
+  height: 12px;
+  width: 12px;
+  background-color:hsl(0, 0%, 100%);
+ }

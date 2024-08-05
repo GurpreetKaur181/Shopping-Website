@@ -27,6 +27,7 @@
 
 .logo{
   color: white;
+  font-size: 40px;
 }
 
 .logo:hover{
@@ -41,7 +42,7 @@
 
 .Navitems ul li{
   margin: 10px;
-  margin-right: 70px;
+  margin-right: 160px;
   list-style: none;
   font-size: 20px;
 }
@@ -65,23 +66,15 @@ a{
   
 }
 
-.menuText h2:hover{
-     color:rgb(7, 219, 235);
-}
-
 .menuText h1{
   font-size: 55px;
   color: rgb(7, 219, 235);
   margin: auto;
+  
 } 
-
 .menuText p{
   font-size: 20px;
   width: 40%;
-}
-
-.menuText p:hover{
-  color:rgb(7, 219, 235);
 }
 
 button{
@@ -89,31 +82,23 @@ button{
   width: 20%;
   height: 70px;
   background-color: #0ef;
-  box-shadow: 0 0 30px #0ef;
+  box-shadow: 0 0 20px #0ef;
   font-weight: 500;
   cursor: pointer;
   border-radius: 20px;
   border: none;
   outline: none;
   margin: 20px;
-  
-}
-
-button a{
   font-size: 25px;
-  color:black;
-  
 }
 
 button:hover{
   background-color: transparent;
   color: rgb(70, 19, 153);
+  color: white;
   cursor: pointer;
 }
 
-button:hover a{
-  color:#fff;
-}
 
 
 
